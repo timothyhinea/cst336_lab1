@@ -1,0 +1,82 @@
+
+h1{
+    font-family: 'Pacifico', cursive;
+    font-sizw:4em;
+    margin-bottom: 0px;
+}
+
+body{
+    background-color:black;
+    color:gray;
+}
+
+header, main, nav, footer{
+    text-align: center;
+}
+
+nav a { /* links within "nav" container */
+    padding:15px;
+    padding-bottom:4px;
+    font-size:1.8em;
+    text-decoration: none; /*removes Underline */
+    color: white;          /* by default, links are blue */
+}
+
+nav a:hover { 
+    border-bottom:2px orange solid;
+    font-size: 2em;
+    transition: .9s;
+}
+
+main{
+    display:flex;
+    justify-content:center;
+}
+
+footer{
+    font-size: .5em;
+    color: lightblue;
+}
+
+table{
+    margin: 0px auto;
+}
+
+td{
+    padding-right: 10px;
+    font-size: 1.3em;
+}
+
+td strong{
+    color: orange;
+}
+
+#table-header{
+    background-color: #351a00;
+}
+
+#active{
+    border-bottom:2px orange solid;
+    font-size: 2em;
+    transition: .9s;
+
+}
+
+#content{
+    text-align: center;
+}
+
+.table-row{
+    background-color: #753900;
+}
+
+.hobby {
+    color:yellow;
+}
+
+
+ul{
+    width:500px;
+    margin: 0 auto;
+    text-align: left;
+}
